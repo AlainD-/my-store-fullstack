@@ -32,6 +32,12 @@ The instructions given here are to be used to manually trigger an automatic buil
 The deployment proofs consist in screenshots located in the [screenshots](./screenshots) folder.
 ![Diagram](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/diagram/my-store-fs-diagram.png)
 
+### RDS postgres database provisioned
+
+* ![RDS-DB](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/aws-rds-db-runing.png)
+* ![RDS-DB-Config](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/aws-rds-db-config.png)
+* ![RDS-DB-SG](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/aws-rds-db-security-group.png)
+
 ### Backend deployment in AWS Elastic Beanstalk
 
 * AWS Beanstalk configuration
