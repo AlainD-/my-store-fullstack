@@ -30,35 +30,36 @@ The instructions given here are to be used to manually trigger an automatic buil
 ## Documentation
 
 The deployment proofs consist in screenshots located in the [screenshots](./screenshots) folder.
+![Diagram](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/diagram/my-store-fs-diagram.png)
 
 ### Backend deployment in AWS Elastic Beanstalk
 
 * AWS Beanstalk configuration
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/aws-eb-config.png)
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/aws-iam-user.png)
+  * ![AWS-EB-Config](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/aws-eb-config.png)
+  * ![AWS-IAM](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/aws-iam-user.png)
 * CircleCI configuration
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-circle-ci-project-settings-environment-variables.png)
+  * ![API-CCI-Env](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-circle-ci-project-settings-environment-variables.png)
   * [.circleci/config.yml](https://raw.githubusercontent.com/AlainD-/storefront-api/master/.circleci/config.yml)
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-circle-ci-workflow.png)
+  * ![API-CCI-Workflow](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-circle-ci-workflow.png)
 * Deployed successfully
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-beanstalk-deploy-success.png)
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-aws-eb-deploed-healthy.png)
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-circle-ci-deploying-success-with-eb-cli.png)
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-circle-ci-deploy-latest-success.png)
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-tag-success.png)
+  * ![API-EB-OK](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-beanstalk-deploy-success.png)
+  * ![API-EB-Health](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-aws-eb-deploed-healthy.png)
+  * ![API-CCI-Deployed](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-circle-ci-deploying-success-with-eb-cli.png)
+  * ![API-CCI-OK](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-circle-ci-deploy-latest-success.png)
+  * ![API-CCI-Tag](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/storefront-api-tag-success.png)
 
 ### Frontend deployment in AWS S3 bucket
 
 * AWS S3 Bucket configuration
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/aws-s3-bucket-webhosting-config.png)
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/aws-s3-bucket-permissions-config.png)
+  * ![MS-S3-Config](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/aws-s3-bucket-webhosting-config.png)
+  * ![MS-S3-Perm](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/aws-s3-bucket-permissions-config.png)
 * CircleCI configuration
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/my-store-circle-ci-environment-variables.png)
+  * ![MS-CCI-Env](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/my-store-circle-ci-environment-variables.png)
   * [.circleci/config.yml](https://raw.githubusercontent.com/AlainD-/my-store/master/.circleci/config.yml)
 * Deployed successfully
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/my-store-s3-deploy-success.png)
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/my-store-circle-ci-deploy-success.png)
-  * ![MyStore](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/my-store-tag-success.png)
+  * ![MS-S3-Deployed](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/my-store-s3-deploy-success.png)
+  * ![MS-CCI-OK](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/my-store-circle-ci-deploy-success.png)
+  * ![MS-CCI-Tag](https://raw.githubusercontent.com/AlainD-/my-store-fullstack/master/screenshots/my-store-tag-success.png)
 
 ## License
 
