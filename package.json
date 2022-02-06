@@ -1,0 +1,24 @@
+{
+  "name": "my-store-fullstack",
+  "version": "1.0.0",
+  "description": "This project explains the fullstack application of the [StoreFront API](https://github.com/AlainD-/storefront-api) backend and the [My-Store](https://github.com/AlainD-/my-store) frontend.",
+  "main": "index.js",
+  "scripts": {
+    "backend:install": "cd storefront-api && npm install",
+    "backend:build": "cd storefront-api && npm run build",
+    "backend:deploy": "cd storefront-api && npm run build:artifact && npm run deploy",
+    "frontend:install": "cd my-store && npm install",
+    "frontend:build": "cd my-store && npm run build",
+    "frontend:deploy": "cd my-store && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlainD-/my-store-fullstack.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlainD-/my-store-fullstack/issues"
+  },
+  "homepage": "https://github.com/AlainD-/my-store-fullstack#readme"
+}
