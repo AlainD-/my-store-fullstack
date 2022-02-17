@@ -6,9 +6,11 @@
   "scripts": {
     "backend:install": "cd storefront-api && npm install",
     "backend:build": "cd storefront-api && npm run build",
+    "backend:test": "cd storefront-api && npm run test",
     "backend:deploy": "cd storefront-api && npm run build:artifact && npm run deploy",
     "frontend:install": "cd my-store && npm install",
     "frontend:build": "cd my-store && npm run build",
+    "frontend:test": "cd my-store && npm run test",
     "frontend:deploy": "cd my-store && npm run deploy"
   },
   "repository": {
